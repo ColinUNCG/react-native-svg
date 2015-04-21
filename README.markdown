@@ -1,23 +1,26 @@
-# react-native-svg
+# react-native-svg FORK
 
-Render SVG images or write your own in-line and animate them, fun!
+This alpha-prototype version is a fork of the great: https://github.com/brentvatne/react-native-svg
+Please check out that repo!
 
-[Wave.js](https://github.com/brentvatne/react-native-svg/blob/master/Wave.js) and [ReactLogo.js](https://github.com/brentvatne/react-native-svg/blob/master/ReactLogo.js) for examples!
+## My changes to the base
 
-[![Example code result](https://raw.githubusercontent.com/brentvatne/react-native-svg/master/line.gif)](https://github.com/brentvatne/react-native-svg/blob/master/Wave.js) [![Example code result](https://raw.githubusercontent.com/brentvatne/react-native-svg/master/logo.gif)](https://github.com/brentvatne/react-native-svg/blob/master/ReactLogo.js)
+![Screenshot](https://raw.github.com/chroth/react-native-svg/screenshot.png)
 
+- added support for transitions in D3 (well, a possible way)
+- Modularized D3 graphs (so we can load multiple charts without interference)
+- configurable chart (currently, just the radius)
+- Graphs update on user input
+- added react-native-viewport to make the graphs fill width of screen
+- also, using react-native-viewport, app reacts to orientation changes of phone
 
-[![Example code result](https://raw.githubusercontent.com/brentvatne/react-native-svg/master/chart-example.png)](https://github.com/brentvatne/react-native-svg/blob/master/Chart.js)
-*This chart renders from a source file, but I'm sure that a backend could be made for [d3/xkcd](http://dan.iel.fm/xkcd/) to do this for us live*
+## Note
+I am very new to iOS development, so please be patient with me
 
-Uses [SVGKit](https://github.com/SVGKit/SVGKit) to do all of the hard work.
+## Installation
+Just do the usual thing (npm install)
+-> Possible bug: you might want to delete the contents of:
+./node_modules/react-native-viewport/node_modules
+Something weird going on there.
 
-## TODO
-
-- Hit detection and events on individual SVG composites (Path, Line, etc)
-- Component for every SVG element: ‘circle’, ‘ellipse’, ‘line’,
-  ‘polygon’, ‘polyline’, ‘rect’, [etc..](http://www.w3.org/TR/SVG/intro.html)
-- Load source over HTTP
-- Look at performance..
-- Add animations to morph from one svg to another [like this](https://github.com/alexk111/SVG-Morpheus)
-- Add support for "drawing" animations [like this](https://github.com/maxwellito/vivus)
+Any feedback is very welcome!
