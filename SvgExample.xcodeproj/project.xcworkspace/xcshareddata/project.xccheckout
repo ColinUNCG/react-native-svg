@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B6D38C22-E673-41FD-B7DC-A5EA10AF59BC</string>
+	<string>A8857412-E2F1-42CE-A04D-3398392B0A76</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SvgExample</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3C41DD86894DCD4FF28B509410C1879A0F02D401</key>
 		<string>https://github.com/brentvatne/react-native-svg.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SvgExample.xcodeproj</string>
+	<string>SvgExample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3C41DD86894DCD4FF28B509410C1879A0F02D401</key>

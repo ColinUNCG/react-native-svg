@@ -21,12 +21,12 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		494995C21AE4DF96000F4480 /* libRNSvg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4ECFA31ADEFFF8005D7009 /* libRNSvg.a */; };
+		49DA34A11AE64DC500C63BA2 /* libViewport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DA34A01AE64DB600C63BA2 /* libViewport.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		BB3D66111ADF015600ECC42D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3D66101ADF015600ECC42D /* CoreGraphics.framework */; };
 		BB3D661E1ADF016B00ECC42D /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BB3D661D1ADF016B00ECC42D /* libxml2.2.dylib */; };
 		BB3D66201ADF01DB00ECC42D /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = BB3D661F1ADF01DB00ECC42D /* logo.svg */; };
-		BB4ECFA41ADF0003005D7009 /* libRNSvg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4ECFA31ADEFFF8005D7009 /* libRNSvg.a */; };
-		BB9CC7B51AE039D9008A1D08 /* chart.svg in Resources */ = {isa = PBXBuildFile; fileRef = BB9CC7B41AE039D9008A1D08 /* chart.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +86,13 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
+		49DA349F1AE64DB600C63BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49DA349B1AE64DB600C63BA2 /* Viewport.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = Viewport;
+		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
@@ -126,13 +133,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOS/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		49DA349B1AE64DB600C63BA2 /* Viewport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Viewport.xcodeproj; path = "node_modules/react-native-viewport/Viewport.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		BB3D66101ADF015600ECC42D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BB3D661D1ADF016B00ECC42D /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		BB3D661F1ADF01DB00ECC42D /* logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = logo.svg; path = Libraries/logo.svg; sourceTree = "<group>"; };
 		BB4ECF9C1ADEFFF8005D7009 /* RNSvg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSvg.xcodeproj; path = Libraries/RNSvg.xcodeproj; sourceTree = "<group>"; };
-		BB9CC7B41AE039D9008A1D08 /* chart.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chart.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +149,8 @@
 			files = (
 				BB3D661E1ADF016B00ECC42D /* libxml2.2.dylib in Frameworks */,
 				BB3D66111ADF015600ECC42D /* CoreGraphics.framework in Frameworks */,
-				BB4ECFA41ADF0003005D7009 /* libRNSvg.a in Frameworks */,
+				494995C21AE4DF96000F4480 /* libRNSvg.a in Frameworks */,
+				49DA34A11AE64DC500C63BA2 /* libViewport.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00481BE81AC0C86700671115 /* libRCTWebSocketDebugger.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -219,7 +227,6 @@
 			isa = PBXGroup;
 			children = (
 				BB3D661F1ADF01DB00ECC42D /* logo.svg */,
-				BB9CC7B41AE039D9008A1D08 /* chart.svg */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -239,6 +246,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		49DA349C1AE64DB600C63BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49DA34A01AE64DB600C63BA2 /* libViewport.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +265,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				49DA349B1AE64DB600C63BA2 /* Viewport.xcodeproj */,
 				BB4ECF9C1ADEFFF8005D7009 /* RNSvg.xcodeproj */,
 				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
@@ -330,6 +346,11 @@
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = JM8CB467U8;
+					};
+				};
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SvgExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -386,6 +407,10 @@
 				{
 					ProductGroup = BB4ECF9D1ADEFFF8005D7009 /* Products */;
 					ProjectRef = BB4ECF9C1ADEFFF8005D7009 /* RNSvg.xcodeproj */;
+				},
+				{
+					ProductGroup = 49DA349C1AE64DB600C63BA2 /* Products */;
+					ProjectRef = 49DA349B1AE64DB600C63BA2 /* Viewport.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -452,6 +477,13 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		49DA34A01AE64DB600C63BA2 /* libViewport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libViewport.a;
+			remoteRef = 49DA349F1AE64DB600C63BA2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -482,7 +514,6 @@
 			files = (
 				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				BB9CC7B51AE039D9008A1D08 /* chart.svg in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				BB3D66201ADF01DB00ECC42D /* logo.svg in Resources */,
 			);
@@ -518,7 +549,11 @@
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -532,16 +567,24 @@
 					"$(PROJECT_DIR)/Libraries/SVGKit/Source/Vendor/CocoaLumberjack/Framework/Mobile/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Libraries/SVGKit/build/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SvgExample-bntppcgjxzimemcrwkwqbbwelaxt/Build/Products/Debug-iphoneos",
+					"./**",
+					"$(PROJECT_DIR)/Libraries/SVGKit",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SvgExample;
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -555,9 +598,13 @@
 					"$(PROJECT_DIR)/Libraries/SVGKit/Source/Vendor/CocoaLumberjack/Framework/Mobile/build/Debug-iphoneos",
 					"$(PROJECT_DIR)/Libraries/SVGKit/build/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SvgExample-bntppcgjxzimemcrwkwqbbwelaxt/Build/Products/Debug-iphoneos",
+					"./**",
+					"$(PROJECT_DIR)/Libraries/SVGKit",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SvgExample;
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

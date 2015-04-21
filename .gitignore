@@ -1,2 +1,3 @@
 node_modules/**/*
 Libraries/node_modules/**/*
+Libraries/**/*
