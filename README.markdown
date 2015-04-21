@@ -5,7 +5,7 @@ Please check out that repo!
 
 ## My changes to the base
 
-![Screenshot](https://raw.github.com/chroth/react-native-svg/screenshot.png)
+![Screenshot](https://github.com/chroth7/react-native-svg/blob/master/screenshot.png?raw=true)
 
 - added support for transitions in D3 (well, a possible way)
 - Modularized D3 graphs (so we can load multiple charts without interference)
