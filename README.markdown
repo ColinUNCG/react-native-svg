@@ -15,12 +15,25 @@ Please check out that repo!
 - also, using react-native-viewport, app reacts to orientation changes of phone
 
 ## Note
-I am very new to iOS development, so please be patient with me
+I am very new to iOS development, so please be patient with me.
+If you know any steps on how to simplify the installation process (see below), 
+please let me know!
 
 ## Installation
-Just do the usual thing (npm install)
--> Possible bug: you might want to delete the contents of:
+(1) Just do the usual thing (npm install)
+Some more things I need to fix, but here's how you could do it yourself:
+(2) you might want to delete the contents of:
 ./node_modules/react-native-viewport/node_modules
-Something weird going on there.
+(I get problems building it because of recursive paths - even if I disable that)
+(3) Download or link or whatnot SVGKit to ./Libraries/SVGKit
+(git clone https://github.com/SVGKit/SVGKit.git)
+(4) Copy ./node_modules/react-native
+
+Please let me know if you encounter any problems. 
 
 Any feedback is very welcome!
+
+## Todos
+- Add more graphs (meaningful ones, like bar-, pie-, ...)
+- Clean up
+- ...
