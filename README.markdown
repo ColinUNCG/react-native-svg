@@ -21,17 +21,16 @@ please let me know!
 
 ## Installation
 1. Just do the usual thing (npm install)
+2. Also do that in ./Libraries
 
 Some more things I need to fix, but here's how you could do it yourself:
 
-2. you might want to delete the contents of:
+3. you might want to delete the contents of:
 ./node_modules/react-native-viewport/node_modules
 (I get problems building it because of recursive paths - even if I disable that)
 
-3. Download or link or whatnot SVGKit to ./Libraries/SVGKit
+4. Download or link or whatnot SVGKit to ./Libraries/SVGKit
 (git clone https://github.com/SVGKit/SVGKit.git)
-
-4. Copy ./node_modules/react-native
 
 Please let me know if you encounter any problems. 
 
